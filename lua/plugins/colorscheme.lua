@@ -8,9 +8,18 @@ return {
     end,
   },
   {
-    "andersevenrud/nordic.nvim",
-    lazy = false,
+    "kylejreed/nordic.nvim",
+    lazy = true,
     priority = 1000,
+    config = function()
+      require("nordic").colorscheme({
+        custom_colors = function()
+          return {
+            { "@method", "Red", "LightYellow" },
+          }
+        end,
+      })
+    end,
   },
   {
     "folke/tokyonight.nvim",
