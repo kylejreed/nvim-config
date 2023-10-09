@@ -21,17 +21,17 @@ return {
       })
     end,
   },
-  {
-    "folke/tokyonight.nvim",
-    lazy = true,
-    opts = { style = "moon" },
-    priority = 1000,
-  },
-  {
-    "navarasu/onedark.nvim",
-    laze = true,
-    priority = 1000,
-  },
+  -- {
+  --   "folke/tokyonight.nvim",
+  --   lazy = true,
+  --   opts = { style = "moon" },
+  --   priority = 1000,
+  -- },
+  -- {
+  --   "navarasu/onedark.nvim",
+  --   laze = true,
+  --   priority = 1000,
+  -- },
   {
     "catppuccin/nvim",
     lazy = true,
@@ -71,7 +71,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nordic",
+      colorscheme = "catppuccin-mocha",
     },
   },
 }
