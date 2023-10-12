@@ -1,8 +1,5 @@
 return {
   {
-    "felipeagc/fleet-theme-nvim",
-  },
-  {
     "rose-pine/neovim",
     name = "rose-pine",
     lazy = false,
@@ -36,21 +33,12 @@ return {
     end,
   },
   {
-    "folke/tokyonight.nvim",
-    lazy = false,
-    opts = { style = "moon" },
-    priority = 1000,
-  },
-  {
-    "navarasu/onedark.nvim",
-    laze = false,
-    priority = 1000,
-  },
-  {
     "catppuccin/nvim",
     lazy = false,
     name = "catppuccin",
     opts = {
+      no_italic = true,
+      transparent_background = true,
       integrations = {
         alpha = true,
         cmp = true,
@@ -85,7 +73,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "fleet",
+      colorscheme = "catppuccin-frappe",
     },
   },
 }
