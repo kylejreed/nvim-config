@@ -1,5 +1,8 @@
 return {
   {
+    "felipeagc/fleet-theme-nvim",
+  },
+  {
     "rose-pine/neovim",
     name = "rose-pine",
     lazy = false,
@@ -82,7 +85,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine",
+      colorscheme = "fleet",
     },
   },
 }
