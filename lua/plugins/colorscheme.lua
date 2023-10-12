@@ -38,7 +38,6 @@ return {
     name = "catppuccin",
     opts = {
       no_italic = true,
-      transparent_background = true,
       integrations = {
         alpha = true,
         cmp = true,
@@ -67,6 +66,11 @@ return {
         telescope = true,
         treesitter = true,
         which_key = true,
+      },
+      color_overrides = {
+        frappe = {
+          base = "#303338",
+        },
       },
     },
   },
