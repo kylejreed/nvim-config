@@ -1,5 +1,15 @@
 return {
-  { "rose-pine/neovim", name = "rose-pine", lazy = false, priority = 1000 },
+  {
+    "rose-pine/neovim",
+    name = "rose-pine",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("rose-pine").setup({
+        disable_italics = true,
+      })
+    end,
+  },
   {
     "projekt0n/github-nvim-theme",
     lazy = false, -- make sure we load this during startup if it is your main colorscheme
