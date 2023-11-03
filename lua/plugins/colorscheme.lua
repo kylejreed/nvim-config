@@ -1,5 +1,17 @@
 return {
   {
+    "olivercederborg/poimandres.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("poimandres").setup({
+        -- leave this setup function empty for default config
+        -- or refer to the configuration section
+        -- for configuration options
+      })
+    end,
+  },
+  {
     "rose-pine/neovim",
     name = "rose-pine",
     lazy = false,
@@ -79,7 +91,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-frappe",
+      colorscheme = "poimandres",
     },
   },
 }
